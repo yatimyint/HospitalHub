@@ -1,0 +1,66 @@
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            background: url('hospitalwebsiteproject/hospital_main_webpage.jpeg') no-repeat center center fixed;
+            background-size: cover;
+        }
+
+        .content {
+            width: 80%; 
+            background-color: rgba(255, 255, 255, 0.8); 
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        #medications {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .medication-item {
+            width: 30%;
+            margin: 10px;
+            padding: 15px;
+            background-color: #f5f5f5;
+            border-radius: 10px; 
+            text-align: center;
+        }
+
+        .medication-item p {
+            margin-bottom: 10px;
+        }
+
+        .stock-info {
+            font-size: 14px;
+            color: #555;
+        }
+
+        @media (max-width: 768px) {
+            .medication-item {
+                width: 100%; 
+            }
+        }
+
+        .navbar ul {
+            list-style: none;
+        }
+        
+
+
+        .navbar li a {
+            color: rgb(0, 0, 0);
+            font-size: 20px;
+            font-weight: 600;
+            text-decoration: none; 
+            display: inline-block; 
+        }
+        
+        .navbar li a:hover {
+            text-decoration: underline;
+        }

@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.banner-main{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(hospital_main_webpage.jpeg);    
+    background-position: center;
+}
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(hospital_main_webpage.jpeg);    
+
+}
+
+.logo{
+    width: 30%;
+    margin-left: 30px;
+    position: absolute;
+}
+
+.navbar{
+    width: 100%;
+    height: 75px;
+    display: flex;
+   align-items: center;
+   background: rgb(0, 0, 0);
+}
+
+.btn-group button{
+    background-color: #097b2f;
+    color: white; 
+    cursor: pointer; 
+    float: right;
+    padding: 10px 24px;
+
+
+}
+  
+  .btn-group button:hover {
+    background-color: #046d27;
+  }
+
+  ul{
+    flex: 1;
+    text-align: right;
+}
+
+
+ul li {
+    list-style: none;
+    display: inline-block;
+
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-family: Arial, Helvetica, Bold, sans-serif;
+    font-weight: 600;
+    padding: 30px 60px;
+
+}
+
+.navbar li a:hover {
+    text-decoration: underline;
+  }
+
+  
+
+.content-main{
+    width: 100%;
+    position: absolute;
+    top: 45%;
+    transform: translateY(-50);
+    text-align: center;
+    color:rgb(252, 248, 244);
+    font-size: x-large;
+    
+}
+
+.content{
+    width: 100%;
+    position: absolute;
+    top: 23%;
+    transform: translateY(-50);
+    text-align: center;
+    color:rgb(252, 248, 244);
+    font-size: x-large;
+
+    
+}
+
+.content-main button{
+    width:220px;
+        padding: 15px 0;
+        text-align: center;
+        margin: 20px 10px;
+        font-weight: bold;
+        color: white;
+        background-color: #003d14;
+        cursor: pointer;
+        transition: ease-out 0.2s;
+        box-shadow: inset 0 0 0 0 rgb(252, 248, 244);
+    
+    }
+
+.content-main button:hover{
+    background-color: white;
+    color: black;
+}
+
+
+.content button{
+    width:220px;
+        padding: 15px 0;
+        text-align: center;
+        margin: 20px 10px;
+        font-weight: bold;
+        color: white;
+        background-color: #0b722e;
+        cursor: pointer;
+        transition: ease-out 0.2s;
+        box-shadow: inset 0 0 0 0 rgb(252, 248, 244);
+    
+    }
+
+.content button:hover{
+    background-color: white;
+    color: black;
+}
+
+img {
+    max-width: 35%;
+}
+
+.content .box {
+    position: relative;
+    width: 370px;
+    height: 270px;
+    display: inline-block;
+    vertical-align: top; 
+    margin: 0 15px; 
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+}
+
+.content .box h3,
+.content .box h4,
+.content .box a {
+    display: block;
+    margin-top: 30px; 
+}
+
+.content .box a {
+    text-decoration: none;
+}
+
+
+
+.box button:hover {
+    background-color: white;
+    color: black;
+}
+
+
+.register-box {
+    width: 30%; 
+    left: 50%;
+    margin: auto; 
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 8px;
+    color: #fff;
+    align-items: center; }
+
+
+.register-box input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.register-box button {
+    width: 80%;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 0;
+    font-weight: bold;
+    color: white;
+    background-color: #003d14;
+    cursor: pointer;
+    transition: ease-out 0.2s;
+    box-shadow: inset 0 0 0 0 rgb(252, 248, 244);
+}
+
+.register-box button:hover {
+    background-color: white;
+    color: black;
+}
+
+
+.box img {
+    border-radius: 10%;
+    max-width: 50%; 
+    max-height: 50%;
+    object-fit: cover; 
+}
+
+
+
+
+
+
